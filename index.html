@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Quiz</title>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" type="text/css" href="Assets/style2.css" />
+        <link rel="stylesheet" type="text/css" href="Assets/style.css" />
+    </head>
+    <body>
+        <header>
+            
+            <div id = "header_div">
+                <p id = "header_time">Time: <span id="time_remaining">60</span></p>
+            </div>
+        </header>
+
+
+        <main>
+           
+            <div id = "intro">  
+                <h1 id="title">Code Quiz</h1>
+                <h2>Answer the questions. You will be timed. Wrong answers will subtract time!</h2>
+                <button id= "btn_start_quiz">Start Quiz</button>
+            </div>
+            
+           
+            <div id = "quiz" style="display:none">
+                <p id="quiz_question">Questions go here.</p>
+                <div class = "answer_container">  
+                    <button class= "btn_answers" id = "btn_answer_1">1.</button>
+                    <button class= "btn_answers" id = "btn_answer_2">2.</button>
+                    <button class= "btn_answers" id = "btn_answer_3">3.</button>
+                    <button class= "btn_answers" id = "btn_answer_4">4.</button>
+                </div>
+               
+                <p id= "right_wrong" style="display:none">Correct!</p>
+            </div>
+
+
+            
+            <div id="results" style="display:none">
+                <h3>All done!</h2>
+                <p id="score">Final score:</p>
+                <form id="name_form">
+                    <label for="Ini">Initials:</label>
+                    <input type="text" id="Ini" name="Ini"><br><br>
+                    <button id ="submit_button" type="submit">Submit</button>
+                  </form>
+            </div>
+
+
+            <div id="high_scores_page" style="display:none">
+                <h3>High Scores</h3>
+                <table id="high_scores_table" style="width:100%">
+                    <tr>
+                      <th>Initials</th>
+                      <th>Score</th>
+                    </tr>
+                </table>
+
+                <div>
+                    <button id ="restart_quiz">Restart</button>
+                    <button id ="clear_scores">Clear Scores</button>
+                </div>
+            </div>
+            
+            
+        
+        </main>
+
+        <script src="Assets/script.js"></script>
+
+    </body>
