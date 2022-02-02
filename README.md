@@ -1,6 +1,11 @@
 # 04-Code-Quiz-ag
 
 # App Directions for Use
+App Link: https://gamunale.github.io/04-Code-Quiz-ag/
+
+Github link: https://github.com/Gamunale/04-Code-Quiz-ag
+
+# App Directions for Use
 You get 60 seconds to complete the whole quiz. Quiz will be mulptiple choice questions. Everytime you answer a question wrong time will be subtracted as penalty.
 
 
